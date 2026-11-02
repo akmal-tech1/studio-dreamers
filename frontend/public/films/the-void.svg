@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1350" role="img" aria-labelledby="title desc">
+  <title id="title">The Void</title>
+  <desc id="desc">A vast black hole bends the light of a distant cosmic accretion disk.</desc>
+  <defs>
+    <linearGradient id="space" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#080914"/>
+      <stop offset=".58" stop-color="#11112a"/>
+      <stop offset="1" stop-color="#050509"/>
+    </linearGradient>
+    <radialGradient id="nebula">
+      <stop stop-color="#7045a8" stop-opacity=".5"/>
+      <stop offset=".52" stop-color="#302452" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#11112a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="disk" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#79d8ff"/>
+      <stop offset=".25" stop-color="#b8a0ff"/>
+      <stop offset=".56" stop-color="#ffac70"/>
+      <stop offset=".78" stop-color="#f04b75"/>
+      <stop offset="1" stop-color="#6a4ce0"/>
+    </linearGradient>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+  </defs>
+  <rect width="900" height="1350" fill="url(#space)"/>
+  <ellipse cx="458" cy="666" rx="530" ry="585" fill="url(#nebula)"/>
+  <g fill="#fff">
+    <circle cx="118" cy="283" r="2"/><circle cx="201" cy="461" r="2.5"/>
+    <circle cx="741" cy="309" r="2"/><circle cx="794" cy="535" r="3"/>
+    <circle cx="91" cy="738" r="2"/><circle cx="184" cy="1012" r="2.5"/>
+    <circle cx="755" cy="950" r="2"/><circle cx="676" cy="1137" r="2.5"/>
+    <circle cx="352" cy="251" r="1.5"/><circle cx="567" cy="382" r="1.5"/>
+    <circle cx="328" cy="1087" r="1.5"/><circle cx="828" cy="769" r="1.5"/>
+  </g>
+  <ellipse cx="451" cy="682" rx="355" ry="105" fill="none" stroke="#9a6eff" stroke-opacity=".55" stroke-width="78" filter="url(#blur)" transform="rotate(-18 451 682)"/>
+  <ellipse cx="451" cy="682" rx="330" ry="90" fill="none" stroke="url(#disk)" stroke-width="42" filter="url(#soft)" transform="rotate(-18 451 682)"/>
+  <ellipse cx="451" cy="682" rx="320" ry="78" fill="none" stroke="url(#disk)" stroke-width="13" transform="rotate(-18 451 682)"/>
+  <path d="M148 593c88 79 183 119 305 122 113 3 220-30 302-98" fill="none" stroke="#e7d5ff" stroke-opacity=".7" stroke-width="5" transform="rotate(-18 451 682)"/>
+  <circle cx="450" cy="666" r="186" fill="#f8b581" opacity=".16" filter="url(#blur)"/>
+  <circle cx="450" cy="666" r="147" fill="#020206" stroke="#f0c9ff" stroke-opacity=".78" stroke-width="8"/>
+  <circle cx="450" cy="666" r="132" fill="#000"/>
+  <path d="M0 1030c162-74 263-91 450-63s305 35 450-29v412H0z" fill="#07080e" opacity=".86"/>
+  <text x="450" y="126" fill="#fff" fill-opacity=".68" font-family="Arial, sans-serif" font-size="18" letter-spacing="8" text-anchor="middle">A STUDIO DREAMERS PICTURES FILM</text>
+  <text x="450" y="1180" fill="#fff" font-family="Arial, sans-serif" font-size="112" font-weight="700" letter-spacing="12" text-anchor="middle">THE VOID</text>
+  <text x="450" y="1237" fill="#bcaaff" font-family="Arial, sans-serif" font-size="19" letter-spacing="7" text-anchor="middle">BEYOND THE EVENT HORIZON</text>
+</svg>

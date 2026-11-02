@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1350" role="img" aria-labelledby="title desc">
+  <title id="title">The Girl with Red Balloon</title>
+  <desc id="desc">A girl watches a bright red balloon drift above a quiet city at dusk.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#17121d"/>
+      <stop offset=".58" stop-color="#462126"/>
+      <stop offset="1" stop-color="#0b0b0d"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#e8744d" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#e8744d" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="coat" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#9c2932"/>
+      <stop offset="1" stop-color="#40151e"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1350" fill="url(#sky)"/>
+  <ellipse cx="482" cy="698" rx="500" ry="420" fill="url(#glow)"/>
+  <circle cx="633" cy="307" r="94" fill="#ed2337"/>
+  <path d="M633 400c-5 185-46 314-160 479" fill="none" stroke="#d9b8a2" stroke-opacity=".72" stroke-width="3"/>
+  <path d="M633 398l-10 18 19 1z" fill="#b9192c"/>
+  <path d="M0 914h900v436H0z" fill="#101013"/>
+  <path d="M0 896h160v-176h76v176h106V796h94v100h118V708h105v188h88V810h153v540H0z" fill="#19171b"/>
+  <g fill="#bd6d49" opacity=".38">
+    <path d="M43 757h12v28H43zm48 0h12v28H91zm-48 53h12v28H43zm48 0h12v28H91z"/>
+    <path d="M264 824h12v28h-12zm48 0h12v28h-12zm-48 52h12v28h-12zm48 0h12v28h-12z"/>
+    <path d="M565 746h12v28h-12zm48 0h12v28h-12zm-48 52h12v28h-12zm48 0h12v28h-12z"/>
+    <path d="M773 842h12v28h-12zm48 0h12v28h-12zm-48 52h12v28h-12zm48 0h12v28h-12z"/>
+  </g>
+  <ellipse cx="454" cy="1284" rx="137" ry="23" fill="#050506" opacity=".75"/>
+  <circle cx="458" cy="1038" r="46" fill="#bc8066"/>
+  <path d="M413 1037c-4-51 31-80 73-69 28 7 39 34 32 66-18-5-34-21-43-38-13 23-34 38-62 41z" fill="#1b1414"/>
+  <path d="M417 1081c-52 35-79 107-91 203l-9 90h283l-21-142c-12-83-37-132-87-153z" fill="url(#coat)"/>
+  <path d="M413 1122l48 61 49-62 24 222H389z" fill="#26151a" opacity=".72"/>
+  <text x="450" y="118" fill="#fff" fill-opacity=".65" font-family="Arial, sans-serif" font-size="18" letter-spacing="8" text-anchor="middle">A STUDIO DREAMERS PICTURES FILM</text>
+  <text x="450" y="1220" fill="#fff" font-family="Arial, sans-serif" font-size="56" font-weight="700" letter-spacing="3" text-anchor="middle">THE GIRL WITH</text>
+  <text x="450" y="1280" fill="#ff3347" font-family="Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="4" text-anchor="middle">RED BALLOON</text>
+</svg>

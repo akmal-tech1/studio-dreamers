@@ -1,0 +1,10 @@
+# Dependencies, environment, build output
+venv/
+node_modules/
+dist/
+.env
+*.db
+__pycache__/
+.pytest_cache/
+*.joblib
+.DS_Store

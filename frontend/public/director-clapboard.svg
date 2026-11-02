@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="640" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#221116"/>
+      <stop offset="1" stop-color="#08090c"/>
+    </linearGradient>
+    <linearGradient id="board" x1="104" y1="161" x2="548" y2="395" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#25252a"/>
+      <stop offset="1" stop-color="#0b0c0f"/>
+    </linearGradient>
+    <filter id="glow" x="61" y="63" width="530" height="396" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+    <clipPath id="slate">
+      <rect x="103" y="189" width="434" height="205" rx="16"/>
+    </clipPath>
+  </defs>
+  <rect width="640" height="480" rx="28" fill="url(#bg)"/>
+  <ellipse cx="324" cy="336" rx="220" ry="74" fill="#ff123b" fill-opacity=".25" filter="url(#glow)"/>
+  <g transform="rotate(-4 320 248)">
+    <rect x="103" y="189" width="434" height="205" rx="16" fill="url(#board)" stroke="#777178" stroke-width="5"/>
+    <g clip-path="url(#slate)">
+      <rect x="105" y="191" width="430" height="68" fill="#e8e5e4"/>
+      <path d="m124 191 35 0-35 68h-35v-1zm103 0h35l-35 68h-35zm103 0h35l-35 68h-35zm103 0h35l-35 68h-35zm103 0h35l-35 68h-35z" fill="#151519"/>
+      <rect x="106" y="258" width="430" height="136" fill="#101115"/>
+    </g>
+    <rect x="103" y="189" width="434" height="205" rx="16" stroke="#ff334e" stroke-opacity=".7" stroke-width="4"/>
+    <text x="138" y="305" fill="#f4f0f0" font-family="Arial,sans-serif" font-size="30" font-weight="700" letter-spacing="4">DIRECTOR</text>
+    <path d="M138 328h364M138 354h364" stroke="#999197" stroke-width="3"/>
+    <text x="140" y="383" fill="#ff4b61" font-family="Arial,sans-serif" font-size="14" letter-spacing="2">SCENE     TAKE     ROLL</text>
+    <path d="M125 172h390" stroke="#ff334e" stroke-opacity=".6" stroke-width="5"/>
+    <circle cx="124" cy="172" r="8" fill="#ff334e"/>
+    <circle cx="516" cy="172" r="8" fill="#ff334e"/>
+  </g>
+  <text x="42" y="447" fill="#fff" fill-opacity=".72" font-family="Arial,sans-serif" font-size="17" letter-spacing="5">QUIET ON SET • ACTION</text>
+</svg>
